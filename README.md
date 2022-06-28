@@ -1,4 +1,4 @@
-# html-tag-builder
+# HTML Tags builder
 ### Example
 ```c++
     Builder b{"ul"};
