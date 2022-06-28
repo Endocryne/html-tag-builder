@@ -7,6 +7,12 @@
 
     cout << b.str() << endl;
 ```
+```c++
+    Builder b{"ul"};
+    b.add_child("li", "hello").add_child("li", "world");
+
+    cout << b.str() << endl;
+```
 ### Output
 ```
 <ul>
