@@ -1,20 +1,23 @@
 # HTML Tags builder
-### Example
+#
+#
+## Example
+### Input
 ```c++
     Builder b{"ul"};
     b.add_child("li", "hello");
     b.add_child("li", "world");
 
-    cout << b.str() << endl;
+    std::cout << b.str() << std::endl;
 ```
 ```c++
     Builder b{"ul"};
     b.add_child("li", "hello").add_child("li", "world");
 
-    cout << b.str() << endl;
+    std::cout << b.str() << std::endl;
 ```
 ### Output
-```
+```html
 <ul>
   <li>
     hello
